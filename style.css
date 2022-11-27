@@ -297,3 +297,69 @@ section .title::after {
     background: none;
     border: 2px solid #265ef8;
 }
+
+/* about section styling */
+.about .title::after {
+    content: "who i am";
+}
+
+.about .about-content .left {
+    width: 31%;
+    height: 33rem;
+    background: rgb(0 0 0 / 30%);
+    box-shadow: 0 8px 32px 0 rgb(60 255 55);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.about .about-content .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+h3.education {
+    text-align: center;
+    margin-bottom: 49px;
+    font-size: 29px;
+    color: #265ef8;
+}
+
+ul.edu-list {
+    text-align: center;
+    color: #ffffff;
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+p.edu-para {
+    margin-bottom: 29px;
+    color: #265ef8;
+}
+
+strong {
+    color: rgb(26, 239, 239);
+}
+
+.about .about-content .right {
+    width: 55%;
+    z-index: 2;
+}
+
+.about .about-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .about-content .right .text span {
+    color: #265ef8;
+}
+
+.about .about-content .right p {
+    text-align: justify;
+}

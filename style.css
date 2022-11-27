@@ -363,3 +363,71 @@ strong {
 .about .about-content .right p {
     text-align: justify;
 }
+
+/* blogs section styling */
+.services,
+.teams {
+    color: #fff;
+    background-color: black;
+}
+
+.services .title::before,
+.teams .title::before {
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.services .title::after,
+.teams .title::after {
+    background: #111;
+    content: "what i write";
+}
+
+.services .serv-content .card {
+    width: calc(33% - 20px);
+    background: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.services .serv-content .card:hover {
+    background: black;
+    border: 2px solid #265ef8;
+}
+
+.services .serv-content .card .box {
+    transition: all 0.3s ease;
+}
+
+.services .serv-content .card:hover .box a {
+    transform: scale(1.05);
+    color: #265ef8;
+}
+
+.services .serv-content .card a:hover {
+    color: #265ef8;
+}
+
+.services .serv-content .card i {
+    font-size: 50px;
+    color: blue;
+    transition: color 0.3s ease;
+}
+
+.services .serv-content .card:hover i {
+    color: #265ef8;
+}
+
+.services .serv-content .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}

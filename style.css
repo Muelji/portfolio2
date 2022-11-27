@@ -229,3 +229,71 @@ section .title::after {
 .scroll-up-btn:hover {
     filter: brightness(90%);
 }
+
+
+/* home section styling */
+.home-content {
+    z-index: 2;
+}
+
+.home {
+    z-index: 2;
+    display: flex;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.home .max-width {
+    width: 100%;
+    display: flex;
+}
+
+.home .max-width .row {
+    margin-right: 0;
+}
+
+.home .home-content .text-1 {
+    font-size: 27px;
+}
+
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+    color: #265ef8;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+}
+
+.home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+    color: #265ef8;
+    font-weight: 500;
+}
+
+.home .home-content a {
+    display: inline-block;
+    background: #265ef8;
+    z-index: 10000;
+    color: black;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid grey;
+    transition: all 0.3s ease;
+}
+
+.home .home-content a:hover {
+    color: #265ef8;
+    background: none;
+    border: 2px solid #265ef8;
+}

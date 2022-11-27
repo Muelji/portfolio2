@@ -124,7 +124,7 @@ section .title::after {
 }
 
 .navbar .logo a span {
-    color: rgb(60 255 55);
+    color: rgb(40, 201, 250);
     transition: all 0.3s ease;
 }
 
@@ -139,7 +139,7 @@ section .title::after {
 
 .navbar .menu li a {
     display: block;
-    color: rgb(60 255 55);
+    color: rgb(40, 201, 250);
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -307,7 +307,7 @@ section .title::after {
     width: 31%;
     height: 33rem;
     background: rgb(0 0 0 / 30%);
-    box-shadow: 0 8px 32px 0 rgb(60 255 55);
+    box-shadow: 0 8px 32px 0 rgb(40, 201, 250);
     backdrop-filter: blur(12.5px);
     -webkit-backdrop-filter: blur(12.5px);
     border-radius: 10px;

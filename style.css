@@ -315,10 +315,11 @@ section .title::after {
 }
 
 .about .about-content .left img {
-    height: 400px;
-    width: 400px;
+    height: 100px;
+    width: 100px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 100px;
+    border: 1px solid red;
 }
 
 h3.education {

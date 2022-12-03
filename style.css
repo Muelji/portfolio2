@@ -444,6 +444,17 @@ a {
     padding: 30px;
 }
 
+.row{
+     display: flex;
+     flex-wrap: wrap;
+
+}
+
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
 
 .skills .progress {
     height: 60px;

@@ -453,13 +453,6 @@ a {
 
 }
 
-@media screen and (max-width: 929) {
-    .row {
-        display: flex;
-        flex-direction: column;
-    }
-    
-}
 
 .col-lg-6 {
     flex: 0 0 auto;

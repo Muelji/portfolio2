@@ -445,11 +445,7 @@ a {
     padding: 60px;
 }
 
-.interests{
-    /* border: 1px solid red; */
-    background: rgb(151, 150, 150);
-    padding: 60px;
-}
+
 
 .row{
      display: flex;
@@ -501,6 +497,12 @@ a {
 .col-lg-3 {
     flex: 0 0 auto;
     width: 25%;
+}
+
+.interests{
+    /* border: 1px solid red; */
+    background: rgb(151, 150, 150);
+    padding: 60px;
 }
 
 .interests .icon-box {

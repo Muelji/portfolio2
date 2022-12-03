@@ -434,7 +434,17 @@ a {
     margin: 10px 0 7px 0;
 }
 
+
 /* skills section styling */
+
+
+.skills{
+    border: 1px solid red;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+}
+
+
 .skills .progress {
     height: 60px;
     display: block;
@@ -468,6 +478,8 @@ a {
     transition: 0.9s;
     background-color: #18d26e;
   }
+
+
 
 /* projects section styling */
 .teams .title::after {

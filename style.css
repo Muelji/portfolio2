@@ -450,6 +450,7 @@ a {
 .row{
      display: flex;
      flex-wrap: wrap;
+     border: 1px solid red;
 
 }
 
@@ -500,7 +501,7 @@ a {
 }
 
 .interests{
-    /* border: 1px solid red; */
+    border: 1px solid rgb(24, 238, 70);
     background: black;
     padding: 60px;
 }
@@ -517,13 +518,6 @@ a {
     font-size: 32px;
     padding-right: 10px;
     line-height: 1;
-}
-
-.ri{
-    font-family: 'remixicon' !important;
-    font-style: normal;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
    h3 {

@@ -440,6 +440,7 @@ a {
     background: none;
     border-radius: 0;
   }
+
   .skills .progress .skill {
     padding: 10px 0;
     margin: 0;
@@ -449,11 +450,13 @@ a {
     font-family: "Poppins", sans-serif;
     color: #fff;
   }
-  .skills .progress .skill .val {
-    float: right;
-    font-style: normal;
-  }
-  .skills .progress-bar-wrap {
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
     background: rgba(255, 255, 255, 0.2);
   }
   .skills .progress-bar {
@@ -462,7 +465,6 @@ a {
     transition: 0.9s;
     background-color: #18d26e;
   }
-
 
 /* projects section styling */
 .teams .title::after {

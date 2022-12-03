@@ -450,8 +450,15 @@ a {
 .row{
      display: flex;
      flex-wrap: wrap;
-     /* border: 1px solid red; */
 
+}
+
+@media screen and (max-width: 929) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
 
 .col-lg-6 {
@@ -503,11 +510,12 @@ a {
 .col-lg-3 {
     flex: 0 0 auto;
     width: 25%;
-    /* border: 1px solid blue; */
+    background-color: rgb(10, 10, 10);
+    border: 1px solid black;
 }
 
 .interests{
-    border: 1px solid rgb(24, 238, 70);
+    /* border: 1px solid rgb(24, 238, 70); */
     background: black;
     padding: 60px;
 }

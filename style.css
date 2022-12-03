@@ -439,6 +439,7 @@ a {
     display: block;
     background: none;
     border-radius: 0;
+    border: 1px solid red;
   }
 
   .skills .progress .skill {
@@ -449,6 +450,7 @@ a {
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     color: #fff;
+    border: 1px solid blue;
   }
 
 .skills .progress .skill .val {
@@ -460,7 +462,7 @@ a {
     background: rgba(255, 255, 255, 0.2);
   }
   .skills .progress-bar {
-    width: 1px;
+    width: 5px;
     height: 10px;
     transition: 0.9s;
     background-color: #18d26e;

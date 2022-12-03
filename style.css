@@ -444,6 +444,12 @@ a {
     padding: 60px;
 }
 
+.interests{
+    /* border: 1px solid red; */
+    background: black;
+    padding: 60px;
+}
+
 .row{
      display: flex;
      flex-wrap: wrap;

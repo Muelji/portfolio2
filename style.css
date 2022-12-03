@@ -501,19 +501,19 @@ a {
 
 .interests{
     /* border: 1px solid red; */
-    background: rgb(151, 150, 150);
+    background: black;
     padding: 60px;
 }
 
 .interests .icon-box {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 60px;
     background: rgba(255, 255, 255, 0.08);
     transition: ease-in-out 0.3s;
 }
 
-.interests .icon-box i {
+.icon-box i {
     font-size: 32px;
     padding-right: 10px;
     line-height: 1;
@@ -526,7 +526,7 @@ a {
     -moz-osx-font-smoothing: grayscale;
 }
 
-  .interests .icon-box h3 {
+   h3 {
     font-weight: 700;
     margin: 0;
     padding: 0;

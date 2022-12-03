@@ -441,7 +441,7 @@ a {
 .skills{
     border: 1px solid red;
     background: rgba(0, 0, 0, 0.9);
-    padding: 30px;
+    padding: 60px;
 }
 
 .row{
@@ -481,7 +481,7 @@ a {
 }
 
 .skills .progress-bar-wrap {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(197, 195, 195, 0.2);
   }
   .skills .progress-bar {
     width: 5px;

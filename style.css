@@ -441,7 +441,7 @@ strong {
 
 .col-lg-3 {
     flex: 0 0 auto;
-    width: 25%;
+    width: 200px;
     background-color: rgb(10, 10, 10);
     border: 1px solid black;
     margin-top: 2%;

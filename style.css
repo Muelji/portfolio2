@@ -886,12 +886,6 @@ a.head:hover {
         max-width: 930px;
     }
 
-    .about .about-content .left img {
-        height: 25%;
-        width: 40%;
-        object-fit: cover;
-        border-radius: 50%;
-    }
     
     .about .about-content .column {
         width: 100%;
@@ -899,6 +893,8 @@ a.head:hover {
 
     .about .about-content .left {
         display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
         margin: 0 auto 60px;
     }

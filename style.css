@@ -427,7 +427,7 @@ strong {
     background: rgba(197, 195, 195, 0.2);
   }
   .skills .progress-bar {
-    width: 5px;
+    width: 1px;
     height: 10px;
     transition: 0.9s;
     background-color: #18d26e;

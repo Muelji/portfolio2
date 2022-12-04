@@ -317,11 +317,11 @@ section .title::after {
 }
 
 .about .about-content .left img {
-    height: 100px;
-    width: 100px;
+    height: 25%;
+    width: 40%;
     object-fit: cover;
-    border-radius: 100px;
-    border: 1px solid red;
+    border-radius: 50%;
+    /* border: 1px solid red; */
 }
 
 h3.education {
@@ -384,7 +384,7 @@ strong {
 
 
 .row{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-wrap: wrap;
     
@@ -393,7 +393,7 @@ strong {
 
 .col-lg-6 {
     
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 650px;
 }
 
@@ -441,7 +441,7 @@ strong {
 
 .col-lg-3 {
     flex: 0 0 auto;
-    width: 360px;
+    width: 366px;
     background-color: rgb(10, 10, 10);
     border: 1px solid black;
     margin-top: 2%;

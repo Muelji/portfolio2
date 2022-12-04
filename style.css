@@ -819,9 +819,12 @@ a.head:hover {
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img {
-        height: 350px;
-        width: 350px;
+        height: 25%;
+        width: 40%;
+        object-fit: cover;
+        border-radius: 50%;
     }
+
 }
 
 @media (max-width: 991px) {
@@ -883,6 +886,13 @@ a.head:hover {
         max-width: 930px;
     }
 
+    .about .about-content .left img {
+        height: 25%;
+        width: 40%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
     .about .about-content .column {
         width: 100%;
     }

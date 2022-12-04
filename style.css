@@ -384,6 +384,7 @@ strong {
 
 
 .row{
+    border: 1px solid red;
      display: flex;
      flex-wrap: wrap;
 
@@ -498,6 +499,7 @@ a .project {
     overflow: hidden;
     transition: all 0.3s ease;
 }
+
 
 .teams .carousel .card:hover {
     background: #265ef8;

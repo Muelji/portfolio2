@@ -385,17 +385,16 @@ strong {
 
 .row{
     border: 1px solid red;
-     display: flex;
-     flex-wrap: wrap;
-     width: auto;
-     height: auto;
-
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 
 .col-lg-6 {
-    flex: 0 0 auto;
-    width: 45%;
+    
+    border: 1px solid red;
+    width: 200px;
 }
 
 

@@ -436,7 +436,13 @@ strong {
 /* interest starts */
 
 .section-title h2 {
-    color: white;
+    color: rgb(180, 199, 241);
+}
+
+
+.title{
+    color: rgb(180, 199, 241);
+   
 }
 
 .col-lg-3 {

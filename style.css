@@ -981,8 +981,12 @@ a.head:hover {
 }
 
 @media (max-width:425px) {
-    .navbar .logo a span {
-        visibility: hidden;
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 366px;
+        background-color: rgb(10, 10, 10);
+        border: 1px solid black;
+        margin-top: 2%;
     }
 }
 

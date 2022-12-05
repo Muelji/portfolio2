@@ -988,6 +988,10 @@ a.head:hover {
         border: 1px solid rgb(168, 23, 23);
         margin-top: 2%;
     }
+
+    .about .about-content .left {
+        height: 36rem;
+    }
 }
 
 @media (max-width:310px) {

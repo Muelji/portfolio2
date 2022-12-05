@@ -980,6 +980,12 @@ a.head:hover {
     }
 }
 
+@media (max-width:425px) {
+    .navbar .logo a span {
+        visibility: hidden;
+    }
+}
+
 @media (max-width:310px) {
     .navbar .logo a span {
         visibility: hidden;

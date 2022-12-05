@@ -31,13 +31,13 @@ $(document).ready(function () {
     // Bcakground
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Front-End Web-Developer", "UI/UX Enthusiast", "web 3.0 Enthusiast", "Learner"],
+        strings: ["Front-End Web-Developer", "ThreeJs Enthusiast", "web 3.0 Enthusiast", "Ui/Ux Enthusiast", "Learner"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: ["Front-End Web-Developer", "UI/UX Enthusiast", "web 3.0 Enthusiast", "Learner"],
+        strings: ["Front-End Web-Developer", "ThreeJs Enthusiast", "web 3.0 Enthusiast", "Ui/Ux Enthusiast", "Learner"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
